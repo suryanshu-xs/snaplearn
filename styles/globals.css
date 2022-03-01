@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.container-snap::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.container-snap {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.font-Poppins {
+  font-family: Poppins, sans-serif;
+}
+
+
+.text-gradient {
+  background: -webkit-linear-gradient(0deg,rgba(126, 70, 218, 1), rgba(210, 42, 146, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heading-gradient {
+  background: -webkit-linear-gradient(0deg,rgb(83, 25, 175), rgb(189, 11, 121));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
