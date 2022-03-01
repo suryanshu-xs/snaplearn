@@ -1,1 +1,1 @@
-This is a landing page for an online learning webiste snaplearn.
+This is a landing page for an online learning webiste "snaplearn".
